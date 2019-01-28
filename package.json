@@ -5,6 +5,9 @@
     "build": "rm -rf ./dist && ./node_modules/.bin/tsc",
     "test": "./node_modules/.bin/mocha test"
   },
+  "files": [
+    "dist"
+  ],
   "private": true,
   "dependencies": {
     "joi": "11.4.0"
