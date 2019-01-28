@@ -8,6 +8,7 @@
   "files": [
     "dist"
   ],
+  "types": "./dist/index.d.ts",
   "private": true,
   "dependencies": {
     "joi": "11.4.0"
